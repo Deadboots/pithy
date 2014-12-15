@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.4
+#!/usr/bin/env python3
 
 name = input("Enter your name:")
 
@@ -12,3 +12,9 @@ print(name.capitalize())
 print(age)
 print(sex.upper())
 print(lang.upper())
+
+print("7 years from now, you will be:")
+
+age7 = int(age) + 7
+
+print(age7)
